@@ -22,9 +22,9 @@
                 <spring.version>5.1.2.RELEASE</spring.version>
                 <junit.version>4.11</junit.version>
                 <log4j.version>1.2.17</log4j.version>
-                <sonar.host.url>http://54.234.24.59:9000/</sonar.host.url>
+                <sonar.host.url>http://172.31.65.54:5000/</sonar.host.url>
                 <sonar.login>admin</sonar.login>
-                <sonar.password>admin</sonar.password>
+                <sonar.password>1234OSE1234</sonar.password>
                 <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
                 <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         </properties>
@@ -96,13 +96,13 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>Landmark Technologies Releases Nexus Repository</name>
-	      <url>http://52.4.6.171:8089/landmark/repository/tesla-be-releases/</url>
+	      <url>http://34.239.161.208:4000/repository/ebay-bts-releases/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Landmark Technologies Snapshot Nexus Repository </name>
-	      <url>http://52.4.6.171:8089/landmark/repository/tesla-be-snapshots/</url>
+	      <url>http://34.239.161.208:4000/repository/ebay-bts-snapshots/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
